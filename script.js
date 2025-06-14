@@ -3,6 +3,6 @@
 let para = document.getElementById("status");
 let ibtn = document.getElementById("enterBtn");
 function fun(){
-	para.innerText = <h1>Entered Metaverse<\h1>
+	para.innerHtml = "<h1>Entered Metaverse</h1>"
 }
 ibtn.addEventListener("click",fun);
